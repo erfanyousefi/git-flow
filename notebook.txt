@@ -1,0 +1,18 @@
+git flow: branching strategy
+branch management
+branches: 
+main/master => for production and live product code(bug free)
+Release
+Develop
+Feature
+
+|-------------------------------------------------------------------------------------------------------|> Main -----------------|--------------|--|>Main
+                                                             Release.v1     Release.v2                  |                        |----hotFix----| 
+|-------------------------------------------------------------------|---------------|----> Release------|                                       |
+|---|-----------------------------|------|------> Develop -----|----|               |------Develop------|---------------------------------------|
+    |------Feature-featureName----|      |                     |-----Feature3-------|-
+    |------Feature2----------------------|
+
+
+
+Commands: when we finished release branch, the branch merged on main and develop
